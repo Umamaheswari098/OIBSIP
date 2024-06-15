@@ -1,0 +1,157 @@
+
+
+ HTML FILE 
+
+..................
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute to Vijay Devarakonda</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            text-align: center;
+            color: #333;
+        }
+        p {
+            color: #666;
+            margin-bottom: 15px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+        }
+        .quote {
+            font-style: italic;
+            text-align: center;
+            margin-top: 30px;
+            color: #888;
+        }
+        .section-title {
+            text-align: center;
+            font-size: 1.2em;
+            color: #555;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Tribute to Vijay Devarakonda</h1>
+        </header>
+        <main>
+            <img src="https://example.com/vijay-devarakonda.jpg" alt="Vijay Devarakonda">
+            <h2>Why Vijay Devarakonda is a Youth Icon</h2>
+            <p>Vijay Devarakonda, born on May 9, 1989, in Hyderabad, is a versatile actor who has carved a niche for himself in Telugu cinema. He gained immense popularity with his breakthrough performance in <em>Arjun Reddy</em> (2017), where he portrayed a complex character with depth and intensity.</p>
+            <p>His portrayal of realistic and relatable characters in films like <em>Geetha Govindam</em> (2018) and <em>Dear Comrade</em> (2019) has resonated with the youth, earning him a dedicated fan following.</p>
+            <p>Beyond acting, Vijay is known for his bold fashion choices, candid personality, and his active engagement with fans on social media platforms. He uses his influence to address important social issues and encourages youth empowerment.</p>
+            <div class="quote">
+                <p>"I'm my own director. I do what I feel like doing. That's the freedom I've earned."</p>
+                <p>- Vijay Devarakonda</p>
+            </div>
+            <h2 class="section-title">Gallery</h2>
+            <div class="image-gallery">
+                <img src="vijay-image1.jpg" alt="Vijay Devarakonda">
+                <img src="vijay-image2.jpg" alt="Vijay Devarakonda">
+                <img src="vijay-image3.jpg" alt="Vijay Devarakonda">
+            </div>
+        </main>
+        <footer>
+            <p>Created by Uma Maheswari | 2024</p>
+        </footer>
+    </div>
+</body>
+</html>
+
+
+CSS FILE 
+
+...................
+
+
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.quote {
+    font-style: italic;
+    text-align: center;
+    margin-top: 30px;
+    color: #888;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+    justify-items: center;
+}
+
+.image-gallery img {
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
